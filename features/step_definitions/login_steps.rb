@@ -7,7 +7,6 @@ end
 
 Dado(/^efetue o login inserindo usuário "([^"]*)" e senha "([^"]*)"$/) do |user,pass|
   login.set_login(user,pass)
-  sleep 3
 end
 
 Quando(/^validar mensagem de acesso You logged into a secure area!$/) do
